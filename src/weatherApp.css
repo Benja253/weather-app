@@ -21,6 +21,11 @@ ul{
   color: white;
   text-shadow: 2px 2px 5px 0 #0006;
 }
+@media screen and (max-width: 720px) {
+  .title-loader{
+    font-size: 23px;
+  }
+}
 .absolute {
   position: absolute;
   z-index: -1;
