@@ -1,0 +1,100 @@
+h1, h2, p, ul {
+  margin: 0;
+}
+ul{
+  padding: 0;
+  list-style: none;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.loader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-loader{
+  color: white;
+  text-shadow: 2px 2px 5px 0 #0006;
+}
+.absolute {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.video{
+  width: 2100px;
+}
+.cardWheater {
+  width: 300px;
+  background-color: #fff9;
+  padding: 40px 30px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(3, auto);
+}
+.header-card{
+  grid-column: span 2;
+  text-align: center;
+}
+.name-card{
+  margin-bottom: 5px;
+}
+.country-name{
+  margin-bottom: 20px;
+}
+.icon-temp-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-weather{
+  width: 100%;
+}
+.list-item, .title-description {
+  margin-bottom: 10px;
+}
+.title-description{
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+}
+.description-property{
+  font-weight: 600;
+}
+.list-item {
+  font-weight: 300;
+  font-size: 15px;
+}
+.button-container{
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.temperature{
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 3px 3px 8px 0 #0004;
+  transition: box-shadow 200ms ease;
+}
+.button:active{
+  box-shadow: 0px 0px 0px 0 #0006;
+  transition: box-shadow 200ms ease;
+}
